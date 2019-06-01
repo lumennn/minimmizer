@@ -1,0 +1,10 @@
+
+// 
+// DISPLAY
+// 
+
+@each $property, $value in map-get($display, 'values') {
+    .d\@#{$property} {
+        display: $value;
+    }
+}

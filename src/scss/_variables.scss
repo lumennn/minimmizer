@@ -1,0 +1,18 @@
+
+// 
+// DISPLAY
+// 
+
+$display: (
+    values: (
+        'n'     : none,
+        'i'     : inline,
+        'b'     : block,
+        'ib'    : inline-block,
+        'f'     : flex,
+        'if'    : inline-flex,
+        'tb'    : table,
+        'tbc'   : table-cell,
+        'tbr'   : table-row,
+    )
+);
