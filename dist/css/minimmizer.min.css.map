@@ -1,0 +1,9 @@
+{
+	"version": 3,
+	"file": "minimmizer.min.css",
+	"sources": [
+		"../../src/scss/minimmizer.scss"
+	],
+	"names": [],
+	"mappings": ""
+}

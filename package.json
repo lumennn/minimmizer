@@ -1,0 +1,29 @@
+{
+  "name": "minimmizer",
+  "version": "1.0.0",
+  "description": "Neat CSS Framework based on utility-first approach for a fast UI development",
+  "scripts": {
+    "build": "node-sass src/scss/minimmizer.scss dist/css/minimmizer.css --output-style expanded --source-map true && node-sass src/scss/minimmizer.scss dist/css/minimmizer.min.css --output-style compressed --source-map true"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lumennn/minimmizer.git"
+  },
+  "author": "lumennn",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lumennn/minimmizer/issues"
+  },
+  "homepage": "https://github.com/lumennn/minimmizer#readme",
+  "devDependencies": {
+    "node-sass": "^4.12.0"
+  },
+  "keywords": [
+    "sass",
+    "css",
+    "framework",
+    "utilities",
+    "flexbox",
+    "responsive"
+  ]
+}
