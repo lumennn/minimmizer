@@ -1,0 +1,10 @@
+
+// 
+// FLOAT
+// 
+
+@each $property, $value in map-get($float, 'values') {
+    .fl\@#{$property} {
+        float: $value;
+    }
+}

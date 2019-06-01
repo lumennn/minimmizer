@@ -15,11 +15,48 @@ $display: (
         'tbc'   : table-cell,
         'tbr'   : table-row,
     )
-);
+) !default;
+
+// 
+// FLOAT
+// 
+
+$float: (
+    values: (
+        'n'     : none,
+        'start' : left,
+        'end'   : right,
+    )
+) !default;
 
 // 
 // TYPOGRAPHY
 // 
+
+$font-weight: (
+    values: (
+        '100'   : 100,
+        '200'   : 200,
+        '300'   : 300,
+        '400'   : 400,
+        '500'   : 500,
+        '600'   : 600,
+        '700'   : 700,
+        '800'   : 800,
+        '900'   : 900,
+        'n'     : normal,
+        'lr'    : lighter,
+        'b'     : bold,
+        'br'    : bolder,
+    )
+) !default;
+
+$font-style: (
+    values: (
+        'n'     : none,
+        'sc'    : small-caps,
+    )
+) !default;
 
 $text-align: (
     values: (
@@ -28,7 +65,7 @@ $text-align: (
         'j'     : justify,
         'start' : left,
     )
-);
+) !default;
 
 $text-decoration: (
     values: (
@@ -37,7 +74,7 @@ $text-decoration: (
         'o'     : overline,
         'u'     : underline,
     )
-);
+) !default;
 
 $text-transform: (
     values: (
@@ -46,4 +83,4 @@ $text-transform: (
         'u' : uppercase,
         'l' : lowercase,
     )
-);
+) !default;

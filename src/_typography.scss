@@ -3,6 +3,18 @@
 // TYPOGRAPHY
 // 
 
+@each $property, $value in map-get($font-weight, 'values') {
+    .fw\@#{$property} {
+        font-weight: $value;
+    }
+}
+
+@each $property, $value in map-get($font-style, 'values') {
+    .fs\@#{$property} {
+        font-style: $value;
+    }
+}
+
 @each $property, $value in map-get($text-align, 'values') {
     .ta\@#{$property} {
         text-align: $value;
