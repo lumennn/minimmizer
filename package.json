@@ -1,6 +1,6 @@
 {
   "name": "minimmizer",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Neat CSS Framework based on utility-first approach for a fast UI development",
   "scripts": {
     "build": "node-sass src/minimmizer.scss dist/minimmizer.css --output-style expanded --source-map true && node-sass src/minimmizer.scss dist/minimmizer.min.css --output-style compressed --source-map true"
