@@ -1,0 +1,22 @@
+
+// 
+// TYPOGRAPHY
+// 
+
+@each $property, $value in map-get($text-align, 'values') {
+    .ta\@#{$property} {
+        text-align: $value;
+    }
+}
+
+@each $property, $value in map-get($text-decoration, 'values') {
+    .td\@#{$property} {
+        text-decoration: $value;
+    }
+}
+
+@each $property, $value in map-get($text-transform, 'values') {
+    .tt\@#{$property} {
+        text-transform: $value;
+    }
+}

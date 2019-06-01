@@ -16,3 +16,34 @@ $display: (
         'tbr'   : table-row,
     )
 );
+
+// 
+// TYPOGRAPHY
+// 
+
+$text-align: (
+    values: (
+        'c'     : center,
+        'end'   : right,
+        'j'     : justify,
+        'start' : left,
+    )
+);
+
+$text-decoration: (
+    values: (
+        'n'     : none,
+        'lt'    : line-through,
+        'o'     : overline,
+        'u'     : underline,
+    )
+);
+
+$text-transform: (
+    values: (
+        'n' : none,
+        'c' : capitalize,
+        'u' : uppercase,
+        'l' : lowercase,
+    )
+);
