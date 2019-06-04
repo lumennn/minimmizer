@@ -1,0 +1,22 @@
+
+// 
+// FLOAT
+// 
+
+$float: () !default;
+
+$float: map-merge(
+  (
+    values: (
+      'n'     : none,
+      'start' : left,
+      'end'   : right,
+    ),
+    states: (
+      'a': false,
+      'f': false,
+      'h': false,
+    )
+  ),
+  $float
+);

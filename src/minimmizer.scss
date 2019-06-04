@@ -1,6 +1,4 @@
 
-@import 'variables';
-
-@import 'display';
-@import 'float';
-@import 'typography';
+@import 'settings/settings.display';
+@import 'settings/settings.float';
+@import 'settings/settings.typography';
