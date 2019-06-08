@@ -22,11 +22,7 @@ $font-weight: map-merge(
       'b'   : bold,
       'br'  : bolder,
     ),
-    states: (
-      'a': false,
-      'f': false,
-      'h': false,
-    )
+    states: ()
   ),
   $font-weight
 );
@@ -44,11 +40,7 @@ $font-style: map-merge(
       'i': italic,
       'o': oblique,
     ),
-    states: (
-      'a': false,
-      'f': false,
-      'h': false,
-    )
+    states: ()
   ),
   $font-style
 );
@@ -67,11 +59,7 @@ $text-align: (
       'j'     : justify,
       'start' : left,
     ),
-    states: (
-      'a': false,
-      'f': false,
-      'h': false,
-    )
+    states: ()
   ),
   $text-align
 );
@@ -91,8 +79,6 @@ $text-decoration: map-merge(
       'u'   : underline,
     ),
     states: (
-      'a': false,
-      'f': false,
       'h': true,
     )
   ),
@@ -113,11 +99,7 @@ $text-transform: map-merge(
       'u' : uppercase,
       'l' : lowercase,
     ),
-    states: (
-      'a': false,
-      'f': false,
-      'h': false,
-    )
+    states: ()
   ),
   $text-transform
 );

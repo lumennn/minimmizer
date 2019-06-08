@@ -18,11 +18,7 @@ $display: map-merge(
       'tbc'   : table-cell,
       'tbr'   : table-row,
     ),
-    states: (
-      'a': false,
-      'f': false,
-      'h': false,
-    )
+    states: ()
   ),
   $display
 );

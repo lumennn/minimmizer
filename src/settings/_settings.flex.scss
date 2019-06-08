@@ -11,11 +11,7 @@ $flex: map-merge(
       'a': auto,
       'n': none,
     ),
-    states: (
-      'a': false,
-      'f': false,
-      'h': false,
-    )
+    states: ()
   ),
   $flex
 );
@@ -29,11 +25,7 @@ $flex-grow: () !default;
 $flex-grow: map-merge(
   (
     values: (),
-    states: (
-      'a': false,
-      'f': false,
-      'h': false,
-    )
+    states: ()
   ),
   $flex-grow
 );
@@ -47,11 +39,7 @@ $flex-shrink: () !default;
 $flex-shrink: map-merge(
   (
     values: (),
-    states: (
-      'a': false,
-      'f': false,
-      'h': false,
-    )
+    states: ()
   ),
   $flex-shrink
 );
@@ -68,11 +56,7 @@ $flex-basis: map-merge(
       'a': auto,
       'n': none,
     ),
-    states: (
-      'a': false,
-      'f': false,
-      'h': false,
-    )
+    states: ()
   ),
   $flex-basis
 );
@@ -89,11 +73,7 @@ $align-self: map-merge(
       'fs': flex-start,
       'fe': flex-end,
     ),
-    states: (
-      'a': false,
-      'f': false,
-      'h': false,
-    )
+    states: ()
   ),
   $align-self
 );
@@ -112,11 +92,7 @@ $flex-direction: map-merge(
       'c'   : column,
       'cr'  : column-reverse,
     ),
-    states: (
-      'a': false,
-      'f': false,
-      'h': false,
-    )
+    states: ()
   ),
   $flex-direction
 );
@@ -138,11 +114,7 @@ $flex-flow: map-merge(
       'w'   : wrap,
       'wr'  : wrap-reverse,
     ),
-    states: (
-      'a': false,
-      'f': false,
-      'h': false,
-    )
+    states: ()
   ),
   $flex-flow
 );
@@ -159,11 +131,7 @@ $align-items: map-merge(
       'fs'  : flex-start,
       'fe'  : flex-end,
     ),
-    states: (
-      'a': false,
-      'f': false,
-      'h': false,
-    )
+    states: ()
   ),
   $align-items
 );
@@ -180,11 +148,7 @@ $align-content: map-merge(
       'fs'  : flex-start,
       'fe'  : flex-end,
     ),
-    states: (
-      'a': false,
-      'f': false,
-      'h': false,
-    )
+    states: ()
   ),
   $align-content
 );
@@ -201,11 +165,7 @@ $justify-content: map-merge(
       'fs'  : flex-start,
       'fe'  : flex-end,
     ),
-    states: (
-      'a': false,
-      'f': false,
-      'h': false,
-    )
+    states: ()
   ),
   $justify-content
 );
@@ -223,11 +183,7 @@ $flex-wrap: map-merge(
       'w'   : wrap,
       'wr'  : wrap-reverse,
     ),
-    states: (
-      'a': false,
-      'f': false,
-      'h': false,
-    )
+    states: ()
   ),
   $flex-wrap
 );
