@@ -1,6 +1,6 @@
 
 // 
-// DISPLAY
+// SETTINGS: DISPLAY
 // 
 
 $display: () !default;
@@ -23,5 +23,6 @@ $display: map-merge(
       'f': false,
       'h': false,
     )
-  )
+  ),
+  $display
 );

@@ -1,6 +1,6 @@
 
 // 
-// TYPOGRAPHY: FONT WEIGHT
+// SETTINGS: FONT WEIGHT
 // 
 
 $font-weight: () !default;
@@ -24,7 +24,7 @@ $font-weight: map-merge(
     ),
     states: (
       'a': false,
-      'f': true,
+      'f': false,
       'h': false,
     )
   ),
@@ -32,7 +32,7 @@ $font-weight: map-merge(
 );
 
 // 
-// TYPOGRAPHY: FONT STYLE
+// SETTINGS: FONT STYLE
 // 
 
 $font-style: () !default;
@@ -47,14 +47,14 @@ $font-style: map-merge(
     states: (
       'a': false,
       'f': false,
-      'h': true,
+      'h': false,
     )
   ),
   $font-style
 );
 
 // 
-// TYPOGRAPHY: TEXT ALIGN
+// SETTINGS: TEXT ALIGN
 // 
 
 $text-align: () !default;
@@ -77,7 +77,7 @@ $text-align: (
 );
 
 // 
-// TYPOGRAPHY: TEXT DECORATION
+// SETTINGS: TEXT DECORATION
 // 
 
 $text-decoration: () !default;
@@ -85,10 +85,10 @@ $text-decoration: () !default;
 $text-decoration: map-merge(
   (
     values: (
-      'n'     : none,
-      'lt'    : line-through,
-      'o'     : overline,
-      'u'     : underline,
+      'n'   : none,
+      'lt'  : line-through,
+      'o'   : overline,
+      'u'   : underline,
     ),
     states: (
       'a': false,
@@ -100,12 +100,12 @@ $text-decoration: map-merge(
 );
 
 // 
-// TYPOGRAPHY: TEXT TRANSFORM
+// SETTINGS: TEXT TRANSFORM
 // 
 
 $text-transform: () !default;
 
-$text-transform: (
+$text-transform: map-merge(
   (
     values: (
       'n' : none,

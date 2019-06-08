@@ -1,0 +1,233 @@
+
+// 
+// SETTINGS: FLEX
+// 
+
+$flex: () !default;
+
+$flex: map-merge(
+  (
+    values: (
+      'a': auto,
+      'n': none,
+    ),
+    states: (
+      'a': false,
+      'f': false,
+      'h': false,
+    )
+  ),
+  $flex
+);
+
+// 
+// SETTINGS: FLEX GROW
+// 
+
+$flex-grow: () !default;
+
+$flex-grow: map-merge(
+  (
+    values: (),
+    states: (
+      'a': false,
+      'f': false,
+      'h': false,
+    )
+  ),
+  $flex-grow
+);
+
+// 
+// SETTINGS: FLEX SHRINK
+// 
+
+$flex-shrink: () !default;
+
+$flex-shrink: map-merge(
+  (
+    values: (),
+    states: (
+      'a': false,
+      'f': false,
+      'h': false,
+    )
+  ),
+  $flex-shrink
+);
+
+// 
+// SETTINGS: FLEX BASIS
+// 
+
+$flex-basis: () !default;
+
+$flex-basis: map-merge(
+  (
+    values: (
+      'a': auto,
+      'n': none,
+    ),
+    states: (
+      'a': false,
+      'f': false,
+      'h': false,
+    )
+  ),
+  $flex-basis
+);
+
+// 
+// SETTINGS: ALIGN SELF
+// 
+
+$align-self: () !default;
+
+$align-self: map-merge(
+  (
+    values: (
+      'fs': flex-start,
+      'fe': flex-end,
+    ),
+    states: (
+      'a': false,
+      'f': false,
+      'h': false,
+    )
+  ),
+  $align-self
+);
+
+// 
+// SETTINGS: FLEX DIRECTION
+// 
+
+$flex-direction: () !default;
+
+$flex-direction: map-merge(
+  (
+    values: (
+      'r'   : row,
+      'rr'  : row-reverse,
+      'c'   : column,
+      'cr'  : column-reverse,
+    ),
+    states: (
+      'a': false,
+      'f': false,
+      'h': false,
+    )
+  ),
+  $flex-direction
+);
+
+// 
+// SETTINGS: FLEX FLOW
+// 
+
+$flex-flow: () !default;
+
+$flex-flow: map-merge(
+  (
+    values: (
+      'r'   : row,
+      'rr'  : row-reverse,
+      'c'   : column,
+      'cr'  : column-reverse,
+      'nw'  : nowrap,
+      'w'   : wrap,
+      'wr'  : wrap-reverse,
+    ),
+    states: (
+      'a': false,
+      'f': false,
+      'h': false,
+    )
+  ),
+  $flex-flow
+);
+
+// 
+// SETTINGS: ALIGN ITEMS
+// 
+
+$align-items: () !default;
+
+$align-items: map-merge(
+  (
+    values: (
+      'fs'  : flex-start,
+      'fe'  : flex-end,
+    ),
+    states: (
+      'a': false,
+      'f': false,
+      'h': false,
+    )
+  ),
+  $align-items
+);
+
+// 
+// SETTINGS: ALIGN CONTENT
+// 
+
+$align-content: () !default;
+
+$align-content: map-merge(
+  (
+    values: (
+      'fs'  : flex-start,
+      'fe'  : flex-end,
+    ),
+    states: (
+      'a': false,
+      'f': false,
+      'h': false,
+    )
+  ),
+  $align-content
+);
+
+// 
+// SETTINGS: JUSTIFY CONTENT
+// 
+
+$justify-content: () !default;
+
+$justify-content: map-merge(
+  (
+    values: (
+      'fs'  : flex-start,
+      'fe'  : flex-end,
+    ),
+    states: (
+      'a': false,
+      'f': false,
+      'h': false,
+    )
+  ),
+  $justify-content
+);
+
+// 
+// SETTINGS: FLEX WRAP
+// 
+
+$flex-wrap: () !default;
+
+$flex-wrap: map-merge(
+  (
+    values: (
+      'nw'  : nowrap,
+      'w'   : wrap,
+      'wr'  : wrap-reverse,
+    ),
+    states: (
+      'a': false,
+      'f': false,
+      'h': false,
+    )
+  ),
+  $flex-wrap
+);
