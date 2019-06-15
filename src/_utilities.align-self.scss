@@ -1,0 +1,129 @@
+
+.alignSelf-auto {
+    align-self: auto !important;
+}
+
+.alignSelf-stretch {
+    align-self: stretch !important;
+}
+
+.alignSelf-center {
+    align-self: center !important;
+}
+
+.alignSelf-flexStart {
+    align-self: flex-start !important;
+}
+
+.alignSelf-flexEnd {
+    align-self: flex-end !important;
+}
+
+.alignSelf-baseline {
+    align-self: baseline !important;
+}
+
+@media (min-width: 640px) {
+    .alignSelf-auto--sm {
+        align-self: auto !important;
+    }
+
+    .alignSelf-stretch--sm {
+        align-self: stretch !important;
+    }
+
+    .alignSelf-center--sm {
+        align-self: center !important;
+    }
+
+    .alignSelf-flexStart--sm {
+        align-self: flex-start !important;
+    }
+
+    .alignSelf-flexEnd--sm {
+        align-self: flex-end !important;
+    }
+
+    .alignSelf-baseline--sm {
+        align-self: baseline !important;
+    }
+
+}
+
+@media (min-width: 768px) {
+    .alignSelf-auto--md {
+        align-self: auto !important;
+    }
+
+    .alignSelf-stretch--md {
+        align-self: stretch !important;
+    }
+
+    .alignSelf-center--md {
+        align-self: center !important;
+    }
+
+    .alignSelf-flexStart--md {
+        align-self: flex-start !important;
+    }
+
+    .alignSelf-flexEnd--md {
+        align-self: flex-end !important;
+    }
+
+    .alignSelf-baseline--md {
+        align-self: baseline !important;
+    }
+}
+
+@media (min-width: 1024px) {
+    .alignSelf-auto--lg {
+        align-self: auto !important;
+    }
+
+    .alignSelf-stretch--lg {
+        align-self: stretch !important;
+    }
+
+    .alignSelf-center--lg {
+        align-self: center !important;
+    }
+
+    .alignSelf-flexStart--lg {
+        align-self: flex-start !important;
+    }
+
+    .alignSelf-flexEnd--lg {
+        align-self: flex-end !important;
+    }
+
+    .alignSelf-baseline--lg {
+        align-self: baseline !important;
+    }
+}
+
+@media (min-width: 1280px) {
+    .alignSelf-auto--xl {
+        align-self: auto !important;
+    }
+
+    .alignSelf-stretch--xl {
+        align-self: stretch !important;
+    }
+
+    .alignSelf-center--xl {
+        align-self: center !important;
+    }
+
+    .alignSelf-flexStart--xl {
+        align-elf: flex-start !important;
+    }
+
+    .alignSelf-flexEnd--xl {
+        align-self: flex-end !important;
+    }
+
+    .alignSelf-baseline--xl {
+        align-self: baseline !important;
+    }
+}

@@ -1,4 +1,8 @@
 
-@import 'settings/settings.display';
-@import 'settings/settings.float';
-@import 'settings/settings.typography';
+@import '_utilities.align-items';
+@import '_utilities.align-self';
+@import '_utilities.flex-direction';
+@import '_utilities.font-weight';
+@import '_utilities.text-align';
+@import '_utilities.text-decoration';
+@import '_utilities.text-transform';

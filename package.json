@@ -17,13 +17,5 @@
   "homepage": "https://github.com/lumennn/minimmizer#readme",
   "devDependencies": {
     "node-sass": "^4.12.0"
-  },
-  "keywords": [
-    "sass",
-    "css",
-    "framework",
-    "utilities",
-    "flexbox",
-    "responsive"
-  ]
+  }
 }

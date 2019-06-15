@@ -1,0 +1,88 @@
+
+.textTransform-none {
+    text-transform: none !important;
+}
+
+.textTransform-capitalize {
+    text-transform: capitalize !important;
+}
+
+.textTransform-uppercase {
+    text-transform: uppercase !important;
+}
+
+.textTransform-lowercase {
+    text-transform: lowercase !important;
+}
+
+@media (min-width: 640px) {
+    .textTransform-none--sm{
+        text-transform: none !important;
+    }
+    
+    .textTransform-capitalize--sm {
+        text-transform: capitalize !important;
+    }
+
+    .textTransform-uppercase--sm {
+        text-transform: uppercase !important;
+    }
+
+    .textTransform-lowercase--sm {
+        text-transform: lowercase !important;
+    }
+}
+
+@media (min-width: 768px) {
+    .textTransform-none--md {
+        text-transform: none !important;
+    }
+
+    .textTransform-capitalize--md {
+        text-transform: capitalize !important;
+    }
+
+    .textTransform-uppercase--md {
+        text-transform: uppercase !important;
+    }
+
+    .textTransform-lowercase--md {
+        text-transform: lowercase !important;
+    }
+}
+
+@media (min-width: 1024px) {
+    .textTransform-none--lg {
+        text-transform: none !important;
+    }
+
+    .textTransform-capitalize--lg {
+        text-transform: capitalize !important;
+    }
+
+    .textTransform-uppercase--lg {
+        text-transform: uppercase !important;
+    }
+
+    .textTransform-lowercase--lg {
+        text-transform: lowercase !important;
+    }
+}
+
+@media (min-width: 1280px) {
+    .textTransform-none--xl {
+        text-transform: none !important;
+    }
+
+    .textTransform-capitalize--xl {
+        text-transform: capitalize !important;
+    }
+
+    .textTransform-uppercase--xl {
+        text-transform: uppercase !important;
+    }
+
+    .textTransform-lowercase--xl {
+        text-transform: lowercase !important;
+    }
+}

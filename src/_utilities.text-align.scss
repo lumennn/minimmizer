@@ -1,0 +1,88 @@
+
+.textAlign-start {
+    text-align: left !important;
+}
+
+.textAlign-end {
+    text-align: right !important;
+}
+
+.textAlign-center {
+    text-align: center !important;
+}
+
+.textAlign-justify {
+    text-align: justify !important;
+}
+
+@media (min-width: 640px) {
+    .textAlign-start--sm {
+        text-align: left !important;
+    }
+
+    .textAlign-end--sm {
+        text-align: right !important;
+    }
+
+    .textAlign-center--sm {
+        text-align: center !important;
+    }
+
+    .textAlign-justify--sm {
+        text-align: justify !important;
+    }
+}
+
+@media (min-width: 768px) {
+    .textAlign-start--md {
+        text-align: left !important;
+    }
+
+    .textAlign-end--md {
+        text-align: right !important;
+    }
+
+    .textAlign-center--md {
+        text-align: center !important;
+    }
+
+    .textAlign-justify--md {
+        text-align: justify !important;
+    }
+}
+
+@media (min-width: 1024px) {
+    .textAlign-start--lg {
+        text-align: left !important;
+    }
+
+    .textAlign-end--lg {
+        text-align: right !important;
+    }
+
+    .textAlign-center--lg {
+        text-align: center !important;
+    }
+
+    .textAlign-justify--lg {
+        text-align: justify !important;
+    }
+}
+
+@media (min-width: 1280px) {
+    .textAlign-start--xl {
+        text-align: left !important;
+    }
+
+    .textAlign-end--xl {
+        text-align: right !important;
+    }
+
+    .textAlign-center--xl {
+        text-align: center !important;
+    }
+
+    .textAlign-justify--xl {
+        text-align: justify !important;
+    }
+}

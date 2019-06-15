@@ -1,0 +1,108 @@
+
+.alignItems-stretch {
+    align-items: stretch !important;
+}
+
+.alignItems-center {
+    align-items: center !important;
+}
+
+.alignItems-flexStart {
+    align-items: flex-start !important;
+}
+
+.alignItems-flexEnd {
+    align-items: flex-end !important;
+}
+
+.alignItems-baseline {
+    align-items: baseline !important;
+}
+
+@media(min-width: 640px) {
+    .alignItems-stretch--sm {
+        align-items: stretch !important;
+    }
+
+    .alignItems-center--sm {
+        align-items: center !important;
+    }
+
+    .alignItems-flexStart--sm {
+        align-items: flex-start !important;
+    }
+
+    .alignItems-flexEnd--sm {
+        align-items: flex-end !important;
+    }
+
+    .alignItems-baseline--sm {
+        align-items: baseline !important;
+    }
+}
+
+@media(min-width: 768px) {
+    .alignItems-stretch--md {
+        align-items: stretch !important;
+    }
+
+    .alignItems-center--md {
+        align-items: center !important;
+    }
+
+    .alignItems-flexStart--md {
+        align-items: flex-start !important;
+    }
+
+    .alignItems-flexEnd--md {
+        align-items: flex-end !important;
+    }
+
+    .alignItems-baseline--md {
+        align-items: baseline !important;
+    }
+}
+
+@media(min-width: 1024px) {
+    .alignItems-stretch--lg {
+        align-items: stretch !important;
+    }
+
+    .alignItems-center--lg {
+        align-items: center !important;
+    }
+
+    .alignItems-flexStart--lg {
+        align-items: flex-start !important;
+    }
+
+    .alignItems-flexEnd--lg {
+        align-items: flex-end !important;
+    }
+
+    .alignItems-baseline--lg {
+        align-items: baseline !important;
+    }
+}
+
+@media(min-width: 1200px) {
+    .alignItems-stretch--xl {
+        align-items: stretch !important;
+    }
+
+    .alignItems-center--xl {
+        align-items: center !important;
+    }
+
+    .alignItems-flexStart--xl {
+        align-items: flex-start !important;
+    }
+
+    .alignItems-flexEnd--xl {
+        align-items: flex-end !important;
+    }
+
+    .alignItems-baseline--xl {
+        align-items: baseline !important;
+    }
+}

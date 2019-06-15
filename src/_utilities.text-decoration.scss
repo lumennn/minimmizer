@@ -1,0 +1,88 @@
+
+.textDecoration-none {
+    text-decoration: none !important;
+}
+
+.textDecoration-underline {
+    text-decoration: underline !important;
+}
+
+.textDecoration-overline {
+    text-decoration: overline !important;
+}
+
+.textDecoration-lineThrough {
+    text-decoration: line-through !important;
+}
+
+@media (min-width: 640px) {
+    .textDecoration-none--sm {
+        text-decoration: none !important;
+    }
+
+    .textDecoration-underline--sm {
+        text-decoration: underline !important;
+    }
+
+    .textDecoration-overline--sm {
+        text-decoration: overline !important;
+    }
+
+    .textDecoration-lineThrough--sm {
+        text-decoration: line-through !important;
+    }
+}
+
+@media (min-width: 768px) {
+    .textDecoration-none--md {
+        text-decoration: none !important;
+    }
+
+    .textDecoration-underline--md {
+        text-decoration: underline !important;
+    }
+
+    .textDecoration-overline--md {
+        text-decoration: overline !important;
+    }
+
+    .textDecoration-lineThrough--md {
+        text-decoration: line-through !important;
+    }
+}
+
+@media (min-width: 1024px) {
+    .textDecoration-none--lg {
+        text-decoration: none !important;
+    }
+
+    .textDecoration-underline--lg {
+        text-decoration: underline !important;
+    }
+
+    .textDecoration-overline--lg {
+        text-decoration: overline !important;
+    }
+
+    .textDecoration-lineThrough--lg {
+        text-decoration: line-through !important;
+    }
+}
+
+@media (min-width: 1280px) {
+    .textDecoration-none--xl {
+        text-decoration: none !important;
+    }
+
+    .textDecoration-underline--xl {
+        text-decoration: underline !important;
+    }
+
+    .textDecoration-overline--xl {
+        text-decoration: overline !important;
+    }
+
+    .textDecoration-lineThrough--xl {
+        text-decoration: line-through !important;
+    }
+}
