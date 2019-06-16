@@ -23,7 +23,7 @@
     align-self: baseline !important;
 }
 
-@media (min-width: 640px) {
+@media (min-width: 576px) {
     .alignSelf-auto--sm {
         align-self: auto !important;
     }
@@ -76,7 +76,7 @@
     }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 992px) {
     .alignSelf-auto--lg {
         align-self: auto !important;
     }
@@ -102,7 +102,7 @@
     }
 }
 
-@media (min-width: 1280px) {
+@media (min-width: 1200px) {
     .alignSelf-auto--xl {
         align-self: auto !important;
     }

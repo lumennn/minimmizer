@@ -75,7 +75,7 @@
     height: 16rem !important;
 }
 
-@media(min-width: 640px) {
+@media(min-width: 576px) {
     .height-auto--sm {
         height: auto !important;
     }
@@ -231,7 +231,7 @@
     }
 }
 
-@media(min-width: 1024px) {
+@media(min-width: 992px) {
     .height-auto--lg {
         height: auto !important;
     }

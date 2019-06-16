@@ -19,7 +19,7 @@
     align-items: baseline !important;
 }
 
-@media(min-width: 640px) {
+@media(min-width: 576px) {
     .alignItems-stretch--sm {
         align-items: stretch !important;
     }
@@ -63,7 +63,7 @@
     }
 }
 
-@media(min-width: 1024px) {
+@media(min-width: 992px) {
     .alignItems-stretch--lg {
         align-items: stretch !important;
     }

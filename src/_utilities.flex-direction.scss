@@ -15,7 +15,7 @@
     flex-direction: column-reverse !important;
 }
 
-@media(min-width: 640px) {
+@media(min-width: 576px) {
     .flexDirection-row--sm {
         flex-direction: row !important;
     }
@@ -51,7 +51,7 @@
     }
 }
 
-@media(min-width: 1024px) {
+@media(min-width: 992px) {
     .flexDirection-row--lg {
         flex-direction: row !important;
     }
@@ -69,7 +69,7 @@
     }
 }
 
-@media(min-width: 1280px) {
+@media(min-width: 1200px) {
     .flexDirection-row--xl {
         flex-direction: row !important;
     }

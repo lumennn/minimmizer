@@ -35,7 +35,7 @@
     font-weight: 900 !important;
 }
 
-@media(min-width: 640px) {
+@media(min-width: 576px) {
     .fontWeight-1--sm {
         font-weight: 100 !important;
     }
@@ -111,7 +111,7 @@
     }
 }
 
-@media(min-width: 1024px) {
+@media(min-width: 992px) {
     .fontWeight-1--lg {
         font-weight: 100 !important;
     }
@@ -149,7 +149,7 @@
     }
 }
 
-@media(min-width: 1280px) {
+@media(min-width: 1200px) {
     .fontWeight-1--xl {
         font-weight: 100 !important;
     }

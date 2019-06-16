@@ -75,7 +75,7 @@
     width: 16rem !important;
 }
 
-@media(min-width: 640px) {
+@media(min-width: 576px) {
     .width-auto--sm {
         width: auto !important;
     }
@@ -231,7 +231,7 @@
     }
 }
 
-@media(min-width: 1024px) {
+@media(min-width: 992px) {
     .width-auto--lg {
         width: auto !important;
     }

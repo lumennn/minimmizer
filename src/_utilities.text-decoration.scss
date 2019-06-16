@@ -15,7 +15,7 @@
     text-decoration: line-through !important;
 }
 
-@media (min-width: 640px) {
+@media (min-width: 576px) {
     .textDecoration-none--sm {
         text-decoration: none !important;
     }
@@ -51,7 +51,7 @@
     }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 992px) {
     .textDecoration-none--lg {
         text-decoration: none !important;
     }
@@ -69,7 +69,7 @@
     }
 }
 
-@media (min-width: 1280px) {
+@media (min-width: 1200px) {
     .textDecoration-none--xl {
         text-decoration: none !important;
     }

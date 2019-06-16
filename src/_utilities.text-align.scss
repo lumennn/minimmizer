@@ -1,9 +1,9 @@
 
-.textAlign-start {
+.textAlign-left {
     text-align: left !important;
 }
 
-.textAlign-end {
+.textAlign-right {
     text-align: right !important;
 }
 
@@ -15,12 +15,12 @@
     text-align: justify !important;
 }
 
-@media (min-width: 640px) {
-    .textAlign-start--sm {
+@media (min-width: 576px) {
+    .textAlign-left--sm {
         text-align: left !important;
     }
 
-    .textAlign-end--sm {
+    .textAlign-right--sm {
         text-align: right !important;
     }
 
@@ -34,11 +34,11 @@
 }
 
 @media (min-width: 768px) {
-    .textAlign-start--md {
+    .textAlign-left--md {
         text-align: left !important;
     }
 
-    .textAlign-end--md {
+    .textAlign-right--md {
         text-align: right !important;
     }
 
@@ -51,12 +51,12 @@
     }
 }
 
-@media (min-width: 1024px) {
-    .textAlign-start--lg {
+@media (min-width: 992px) {
+    .textAlign-left--lg {
         text-align: left !important;
     }
 
-    .textAlign-end--lg {
+    .textAlign-right--lg {
         text-align: right !important;
     }
 
@@ -69,12 +69,12 @@
     }
 }
 
-@media (min-width: 1280px) {
-    .textAlign-start--xl {
+@media (min-width: 1200px) {
+    .textAlign-left--xl {
         text-align: left !important;
     }
 
-    .textAlign-end--xl {
+    .textAlign-right--xl {
         text-align: right !important;
     }
 

@@ -1,0 +1,108 @@
+
+.justifyContent-flexStart {
+    justify-content: flex-start !important;
+}
+
+.justifyContent-flexEnd {
+    justify-content: flex-end !important;
+}
+
+.justifyContent-center {
+    justify-content: center !important;
+}
+
+.justifyContent-spaceBetween {
+    justify-content: space-between !important;
+}
+
+.justifyContent-spaceAround {
+    justify-content: space-around !important;
+}
+
+@media(min-width: 576px) {
+    .justifyContent-flexStart--sm {
+        justify-content: flex-start !important;
+    }
+    
+    .justifyContent-flexEnd--sm {
+        justify-content: flex-end !important;
+    }
+    
+    .justifyContent-center--sm {
+        justify-content: center !important;
+    }
+    
+    .justifyContent-spaceBetween--sm {
+        justify-content: space-between !important;
+    }
+    
+    .justifyContent-spaceAround--sm {
+        justify-content: space-around !important;
+    }
+}
+
+@media(min-width: 768px) {
+    .justifyContent-flexStart--md {
+        justify-content: flex-start !important;
+    }
+    
+    .justifyContent-flexEnd--md {
+        justify-content: flex-end !important;
+    }
+    
+    .justifyContent-center--md {
+        justify-content: center !important;
+    }
+    
+    .justifyContent-spaceBetween--md {
+        justify-content: space-between !important;
+    }
+    
+    .justifyContent-spaceAround--md {
+        justify-content: space-around !important;
+    }
+}
+
+@media(min-width: 992px) {
+    .justifyContent-flexStart--lg {
+        justify-content: flex-start !important;
+    }
+    
+    .justifyContent-flexEnd--lg {
+        justify-content: flex-end !important;
+    }
+    
+    .justifyContent-center--lg {
+        justify-content: center !important;
+    }
+    
+    .justifyContent-spaceBetween--lg {
+        justify-content: space-between !important;
+    }
+    
+    .justifyContent-spaceAround--lg {
+        justify-content: space-around !important;
+    }
+}
+
+@media(min-width: 1200px) {
+    .justifyContent-flexStart--xl {
+        justify-content: flex-start !important;
+    }
+    
+    .justifyContent-flexEnd--xl {
+        justify-content: flex-end !important;
+    }
+    
+    .justifyContent-center--xl {
+        justify-content: center !important;
+    }
+    
+    .justifyContent-spaceBetween--xl {
+        justify-content: space-between !important;
+    }
+    
+    .justifyContent-spaceAround--xl {
+        justify-content: space-around !important;
+    }
+}

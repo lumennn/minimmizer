@@ -1,0 +1,68 @@
+
+.float-none {
+    float: none !important;
+}
+
+.float-left {
+    float: left !important;
+}
+
+.float-right {
+    float: right !important;
+}
+
+@media (min-width: 576px) {
+    .float-none--sm {
+        float: none !important;
+    }
+    
+    .float-left--sm {
+        float: left !important;
+    }
+    
+    .float-right--sm {
+        float: right !important;
+    }
+}
+
+@media (min-width: 768px) {
+    .float-none--md {
+        float: none !important;
+    }
+    
+    .float-left--md {
+        float: left !important;
+    }
+    
+    .float-right--md {
+        float: right !important;
+    }
+}
+
+@media (min-width: 992px) {
+    .float-none--lg {
+        float: none !important;
+    }
+    
+    .float-left--lg {
+        float: left !important;
+    }
+    
+    .float-right--lg {
+        float: right !important;
+    }
+}
+
+@media (min-width: 1200px) {
+    .float-none--xl {
+        float: none !important;
+    }
+    
+    .float-left--xl {
+        float: left !important;
+    }
+    
+    .float-right--xl {
+        float: right !important;
+    }
+}
